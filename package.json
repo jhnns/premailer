@@ -1,0 +1,20 @@
+{
+    "name": "premailer",
+    "version": "0.0.1",
+    "author": "Johannes Ewald <mail@johannesewald.de>",
+    "description": "Simple API-wrapper for http://premailer.dialect.ca to sanitize HTML-mails",
+    "main": "./lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jhnns/premailer.git"
+    },
+    "keywords": ["mail", "html", "html-mail", "sanitize", "compatibility", "preprocessor", "api", "wrapper"],
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "1.0.x",
+        "expect.js": "0.1.x"
+    },
+    "engine": {
+        "node": "0.6.x"
+    }
+}
